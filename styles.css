@@ -2,11 +2,85 @@
     max-width: 1310px;
 }
 
-.navbar {
-    height: 97px;
-    background-color: black;
+.navbar-top {
+    min-height: 50px;
+    font-size: 17px;
+    background-color: #f72210;
+    color: white;
 }
 
-.two {
+.weather-icon {
+    margin-right: 5px;
+}
+
+#login-btn {
+    font-weight: bold;
+    display: inline;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 85px;
+}
+
+#sub-btn {
+    border-radius: 20px;
+    height: 29.6px;
+    width: 127px;
+    border: none;
+    font-weight: bold;
+    background-color: #FFE400
+}
+
+.temp-day {
+   line-height: 2;
+   margin-bottom: 15px;
+   font-size: 16px;
+}
+
+.login-sub {
+    /* margin-top: 30px; */
+}
+
+.navbar-bot {
+    height: 98px;
     background-color: green;
 }
+
+#temperature {
+    font-weight: bold;
+}
+
+.main-title-lg {
+    font-size: 76px;
+    height: 95px;
+    font-family: monospace, arial, sans-serif;
+    font-weight: bold;
+}
+
+.main-title-md {
+    font-size: 23px;
+    font-family: monospace, arial, sans-serif;
+    font-weight: bold;
+}
+
+.stories {
+    height: 8008px;
+    background-color:grey;
+}
+
+
+.magazine {
+    height: 917px;
+    background-color:black;
+}
+
+.editors-pick {
+    height: 877px;
+    background-color: grey;
+}
+
+.us {
+    height: 400px;
+    background-color:black;
+}
+
+
