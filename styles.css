@@ -51,7 +51,7 @@
     background-color: rgba(255, 255, 255, 0.55);
 }
 
-ul {
+.top-list {
     list-style-type: none;
     display: inline;
     padding: 0;
@@ -59,7 +59,7 @@ ul {
     max-width: 95%;
   }
 
-li {
+.list-item {
     border-left: 1px solid black;
     font-weight: bold;
     font-size: 17px;
@@ -85,6 +85,26 @@ li {
 .search-bar {
     color: grey;
     font-size: 17px;
+}
+
+.bot-list {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grey {
+    color: grey;
 }
 
 #temperature {
