@@ -107,6 +107,18 @@
     color: grey;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.picture-info {
+    font-size: 18px;
+}
+
+.big-article-info {
+    font-size: 15px;
+}
+
 #temperature {
     font-weight: bold;
 }
@@ -125,8 +137,12 @@
 }
 
 .stories {
-    height: 8008px;
-    background-color:grey;
+    min-height: 8008px;
+    /* background-color:grey; */
+}
+
+.big-article-img {
+    max-width: 100%;
 }
 
 
