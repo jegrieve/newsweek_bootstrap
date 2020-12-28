@@ -142,7 +142,6 @@
 
 .stories {
     min-height: 8008px;
-    /* background-color:grey; */
 }
 
 .big-article-img {
@@ -167,9 +166,9 @@
    max-width: 135px;
 }
 
-/* .small-height {
-    max-height: 186px;
-} */
+.flex-item {
+    width: 30%;
+}
 
 .small-font {
     font-size: 15px;
