@@ -1,5 +1,10 @@
+body {
+    background-color: #f4f5f6;
+}
+
 .container-fluid {
     max-width: 1310px;
+    background-color: white;
 }
 
 .navbar-top {
@@ -107,6 +112,10 @@
     color: grey;
 }
 
+.thick {
+    height: 3px !important;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -152,9 +161,31 @@
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 .float-img {
     margin-right: 2px;
     margin-top: 10px;
+}
+
+.vs {
+    border: 0 none;
+    list-style: none outside none;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed",sans-serif;
+    text-align: center;
+    margin: 6px auto;
 }
 
 .clear {
@@ -174,6 +205,68 @@
     font-size: 15px;
 }
 
+.fix-margins {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.font-inc {
+    font-size: 16px;
+}
+
+.newsletter-sign-up {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #f4f5f6;
+}
+
+.n-logo {
+    color: #333;
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.n-logo-margins {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.newsletter-input {
+    color: grey;
+    width: 80%;
+}
+
+.newsletter-btn {
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0;
+    font-family: "Roboto Condensed",sans-serif;
+    background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
+    border-radius: 3px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 8px;
+}
 
 .magazine {
     height: 917px;
