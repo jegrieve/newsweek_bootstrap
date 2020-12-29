@@ -150,7 +150,7 @@ body {
 }
 
 .stories {
-    min-height: 8008px;
+    /* min-height: 8008px; */
 }
 
 .big-article-img {
@@ -269,18 +269,23 @@ body {
 }
 
 .magazine {
-    height: 917px;
-    background-color:black;
+
+}
+
+.magazine-img {
+    min-height: 290px;
+    max-width: 100%;
+    margin-top: 10px;
 }
 
 .editors-pick {
-    height: 877px;
-    background-color: grey;
+    /* height: 877px;
+    background-color: grey; */
 }
 
 .us {
-    height: 400px;
-    background-color:black;
+    /* height: 400px;
+    background-color:black; */
 }
 
 
