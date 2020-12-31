@@ -278,6 +278,12 @@ body {
     margin-top: 10px;
 }
 
+.editor-img {
+    min-height: 290px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
 .editors-pick {
     /* height: 877px;
     background-color: grey; */
