@@ -33,7 +33,7 @@ body {
     width: 127px;
     border: none;
     font-weight: bold;
-    background-color: #FFE400
+    background-color: #FFE400;
 }
 
 .temp-day {
@@ -108,6 +108,15 @@ body {
     padding-right: 10px;
 }
 
+:hover.orange-hover {
+    color: #f72210;
+}
+
+:hover.orange-underline {
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
 .grey {
     color: grey;
 }
@@ -147,10 +156,6 @@ body {
     font-size: 23px;
     font-family: monospace, arial, sans-serif;
     font-weight: bold;
-}
-
-.stories {
-    /* min-height: 8008px; */
 }
 
 .big-article-img {
@@ -327,7 +332,34 @@ body {
     height: 35px;
 }
 
+hr {
+    background-color: #212529;
+}
 
+.footer-logo-large {
+    color: #f72210;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer-logo-legal {
+    font-size: 12px;
+}
+
+.footer-eds {
+    color: grey;
+}    
+
+.footer-grey {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-links {
+    font-size: 14px;
+    color: grey;
+}
 
 @media (max-width: 720px) {
     
